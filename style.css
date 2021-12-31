@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(227, 231, 245);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  font-size: 5rem;
+  margin-top: 20px;
+  color: rgba(175, 47, 47, 0.15);
+}
+ul {
+  list-style: none;
+  /* box-shadow: 1px 5px 10px rgb(0, 0, 0, 0.3); */
+}
+
+li {
+  border-top: 1px solid rgb(236, 229, 229);
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.container {
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  padding: 0;
+
+  max-width: 400px;
+  box-shadow: 1px 5px 10px rgb(0, 0, 0, 0.3);
+}
+.input-todo {
+  border: none;
+  width: 400px;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+.input-check {
+  margin-right: 10px;
+}
+
+.input-todo:focus {
+  outline: none;
+}
+
+.btn-close {
+  float: right;
+  font-weight: bolder;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  opacity: 0;
+  color: rgb(204, 154, 154);
+  cursor: pointer;
+}
+li:hover .btn-close {
+  opacity: 1;
+}
+input::placeholder {
+  opacity: 0.5;
+  font-style: italic;
+}
+.completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
+a {
+  font-size: 20px;
+}
