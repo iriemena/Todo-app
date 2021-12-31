@@ -18,7 +18,6 @@ h2 {
 }
 ul {
   list-style: none;
-  /* box-shadow: 1px 5px 10px rgb(0, 0, 0, 0.3); */
 }
 
 li {
@@ -31,13 +30,12 @@ li {
   background-color: rgb(252, 252, 252);
   margin: auto;
   padding: 0;
-
-  max-width: 400px;
+  width: 300px;
+  word-wrap: break-word;
   box-shadow: 1px 5px 10px rgb(0, 0, 0, 0.3);
 }
 .input-todo {
   border: none;
-  width: 400px;
   padding: 20px;
   font-size: 1.2rem;
 }
